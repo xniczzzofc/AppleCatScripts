@@ -1,4 +1,3 @@
-
 local MarketplaceService = game:GetService("MarketplaceService")
 local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
@@ -15,7 +14,7 @@ local redzLib = {
     Version = "v1.2.2",
     PlaceName = MarketplaceService:GetProductInfo(game.PlaceId).Name
   },
-  Themes = loadstring(game:HttpGet("https://raw.githubusercontent.com/XNiczzz/Apple-Cat-Hub/refs/heads/main/REDZ%20LIB%20THEMES"))(),
+  Themes = loadstring(game:HttpGet("https://raw.githubusercontent.com/xniczzzofc/AppleCatScripts/refs/heads/main/AppleCatUiRedzV4Themes"))(),
   Flags = {},
   Save = {
     Theme = "Default",
